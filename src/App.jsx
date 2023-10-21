@@ -16,10 +16,10 @@ const App = () => {
       <Hero />
       <About />
       <Skills />
-      <Bot />
-      <Contact />
       <Hireme />
       <Project />
+      <Bot />
+      <Contact />
       <Footer />
     </>
   );
