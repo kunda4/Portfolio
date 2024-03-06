@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      const nav = document.querySelector("nav");
+       document.querySelector("nav");
       window.scrollY > 0 ? setSticky(true) : setSticky(false);
     });
   }, []);
@@ -57,7 +57,9 @@ const Navbar = () => {
         >
           <ul className="flex flex-col justify-center gap-10 py-2 text-lg">
             {menuLinks?.map((menu, index) => (
-              <li key={index} className="px-6 hover:text-green-700">
+              <li 
+              onClick={() => setOpen(false)}
+              key={index} className="px-6 hover:text-green-700">
                 <a href={menu?.link}>{menu?.name}</a>
               </li>
             ))}
