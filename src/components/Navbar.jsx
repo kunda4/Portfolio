@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         <div className="mx-7">
           <h4 className="text-4xl uppercase font-bold">
-            Ag<span className="text-cyan-600">ne</span>s
+            Ag<span className="text-green-700">ne</span>s
           </h4>
         </div>
         <div
@@ -36,7 +36,7 @@ const Navbar = () => {
         >
           <ul className="flex items-center gap-1 py-2 text-lg">
             {menuLinks?.map((menu, index) => (
-              <li key={index} className="px-6 hover:text-cyan-600">
+              <li key={index} className="px-6 hover:text-green-700">
                 <a href={menu?.link}>{menu?.name}</a>
               </li>
             ))}
@@ -57,7 +57,7 @@ const Navbar = () => {
         >
           <ul className="flex flex-col justify-center gap-10 py-2 text-lg">
             {menuLinks?.map((menu, index) => (
-              <li key={index} className="px-6 hover:text-cyan-600">
+              <li key={index} className="px-6 hover:text-green-700">
                 <a href={menu?.link}>{menu?.name}</a>
               </li>
             ))}

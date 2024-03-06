@@ -9,7 +9,7 @@ const About = () => {
     <section id="About" className="py-10 text-white">
       <div className="text-center mt-8">
         <h3 className="text-4xl font-semibold">
-          About <span className="text-cyan-600">Me</span>
+          About <span className="text-green-700">Me</span>
         </h3>
         <p className="text-gray-400 my-3 text-lg">My introduction</p>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
@@ -26,7 +26,7 @@ const About = () => {
                   <div key={content.text}>
                     <h3 className="md:text-4xl text-2xl text-white font-semibold">
                       {content.count}
-                      <span className="text-cyan-600">+</span>{" "}
+                      <span className="text-green-700">+</span>{" "}
                     </h3>
                     <span className="md:text-base text-sx">{content.text}</span>
                   </div>
